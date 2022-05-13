@@ -25,3 +25,18 @@ def nombre(list):
      i=i+1
      return lstn 
 print(nombre(lst1))
+
+#9-d
+lst2=["Olivia","","Nico","Ben","Alicia"]
+def addname (lst2):
+    i=0
+    lstn2=[]
+    while i<len(list):
+        if lst2[i]!="":
+            lstn2.append(list[i])
+        else:
+            break
+        i=i+1
+    return lstn2
+
+print(addname)
